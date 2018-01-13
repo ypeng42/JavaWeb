@@ -1,0 +1,29 @@
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>yuqing</groupId>
+    <artifactId>test</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
+    <name>Yuqing web project</name>
+
+    <!--
+        To setup maven with intellij is very simple, copy and paste a template to the project,
+        and then click Maven Project -> add the pom file
+        Note: intellij is bundled with Maven (located in plugins folder)
+    -->
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j-release-version}</version>
+        </dependency>
+
+    </dependencies>
+
+    <properties>
+        <slf4j-release-version>1.7.19</slf4j-release-version>
+    </properties>
+</project>
